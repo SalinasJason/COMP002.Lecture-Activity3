@@ -26,3 +26,14 @@ function printHelloWorld2() {
 printHelloWorld2();
 printHelloWorld1();
 
+
+  
+  const chicken = () => {
+    return egg ();
+  };
+
+  const egg = () => {
+    return chicken ();
+  };
+
+  console.log(chicken()); 
